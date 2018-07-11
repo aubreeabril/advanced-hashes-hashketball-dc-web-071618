@@ -148,4 +148,4 @@ def team_colors(team_name)
 end
 
 def player_numbers(team_name)
-  game_hash[:]
+  find_the_team(team_name)
